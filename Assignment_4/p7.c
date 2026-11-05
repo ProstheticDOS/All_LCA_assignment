@@ -55,5 +55,5 @@ int main() {
   matrix_sum[rows][columns] = matrix1[rows][columns] + matrix2[rows][columns];
   print_matrix(rows, columns, matrix_sum);
 
-  return EXIT_SUCCESS;
+  return 0;
 }
